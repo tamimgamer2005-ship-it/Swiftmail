@@ -1,10 +1,4 @@
 {
-  "installCommand": "corepack enable && corepack prepare pnpm@10.30.3 --activate && pnpm --dir Email-Handler install",
-  "buildCommand": "pnpm --dir Email-Handler run build",
-  "outputDirectory": "Email-Handler/artifacts/swiftmail/dist",
-  "build": {
-    "env": {
-      "NODE_VERSION": "20"
-    }
-  }
+  "buildCommand": "echo \"No build needed\"",
+  "outputDirectory": "Email-Handler/artifacts/swiftmail/dist"
 }

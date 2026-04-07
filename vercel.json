@@ -1,0 +1,5 @@
+{
+  "installCommand": "pnpm --dir Email-Handler install",
+  "buildCommand": "pnpm --dir Email-Handler --filter @workspace/swiftmail run build",
+  "outputDirectory": "Email-Handler/artifacts/swiftmail/dist"
+}

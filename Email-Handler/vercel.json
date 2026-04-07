@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/swiftmail run build",
+  "outputDirectory": "artifacts/swiftmail/dist",
+  "functions": "artifacts/swiftmail/netlify/functions",
+  "nodeVersion": "20"
+}
